@@ -1,3 +1,3 @@
 def reverse_string(s: str) -> str:
-    # BUG: Returns original string instead of reversed
-    return s
+    # Solved: Returns reversed string
+    return s[::-1]
